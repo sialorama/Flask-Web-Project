@@ -28,4 +28,4 @@ Ce projet servira de point de départ idéal pour toute application web Flask é
 
 12. **Meilleures Pratiques en Matière de Sécurité** : Intégrez les meilleures pratiques en matière de sécurité dans votre modèle Flask pour protéger contre les vulnérabilités web courantes telles que XSS, CSRF et l'injection SQL.
 
-En incluant ces composants dans votre modèle Flask, vous disposerez d'une base solide pour construire des applications web Flask évolutives et maintenables. N'oubliez pas de garder votre modèle assez flexible pour s'adapter à différentes exigences de projet et flux de développement.
+En incluant ces composants dans votre modèle Flask, vous disposerez d'une base solide pour construire des applications web Flask évolutives.
