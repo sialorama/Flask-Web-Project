@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Message Board - {% block title %}Flask Web Project{% endblock title %}</title>
+</head>
+<body>
+<h1>Flask Web Project</h1>
+<section>
+  <header>
+    {% block header %}{% endblock header %}
+  </header>
+  <main>
+    {% block content %}<p>No messages.</p>{% endblock content %}
+  <main>
+</section>
+</body>
+</html>

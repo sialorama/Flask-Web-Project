@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h2>{% block title %}Home{% endblock title %}</h2>
+{% endblock header %}
+
+{% block content %}
+    <p>
+    That sounds like a great plan! Creating a boilerplate for a Flask web project is an excellent way to streamline your development process and ensure consistency across your projects. Here's a basic outline of what you might include in your Flask boilerplate:
+<br>
+1. Project Structure: Define a clear and organized structure for your Flask project. This typically includes directories for static files, templates, and your Python code.
+
+2. Virtual Environment: Encourage the use of virtual environments to manage dependencies for your Flask project. This ensures that your project's dependencies are isolated from other projects and system-wide packages.
+
+3. Configuration: Set up a configuration system for your Flask application. This can include separate configuration files for development, testing, and production environments.
+
+4. Database Integration: If your Flask project requires database access, include integration with a database system such as SQLite, PostgreSQL, or MySQL. SQLAlchemy is a popular choice for database ORM in Flask projects.
+
+5. User Authentication and Authorization: Implement user authentication and authorization features using Flask extensions like Flask-Login or Flask-Security.
+
+6. Blueprints for Modularization: Use Flask Blueprints to organize your application into reusable components. This helps keep your codebase clean and maintainable, especially as your project grows.
+
+7. RESTful API Support: If your Flask project needs to expose a RESTful API, include support for creating and managing API endpoints using Flask-Restful or Flask-RESTPlus.
+
+8. Testing Setup: Incorporate testing into your Flask project by including testing frameworks like pytest or unittest. Write tests to ensure the reliability and correctness of your code.
+
+9. Logging and Error Handling: Implement logging and error handling mechanisms to monitor and debug your Flask application effectively.
+
+10. Deployment Scripts: Provide deployment scripts or guidelines for deploying your Flask application to various hosting platforms like Heroku, AWS, or DigitalOcean.
+
+11. Documentation: Include thorough documentation to help developers understand how to use and extend your Flask boilerplate.
+
+12. Security Best Practices: Incorporate security best practices into your Flask boilerplate to protect against common web vulnerabilities like XSS, CSRF, and SQL injection.
+<br>
+By including these components in your Flask boilerplate, you'll have a solid foundation for building scalable and maintainable Flask web applications. Remember to keep your boilerplate flexible enough to accommodate different project requirements and development workflows.
+    </p>
+
+    <p>
+    Learn more about this project by visiting the <a href="{{ url_for('pages.about') }}">About page</a>.
+    </p>
+{% endblock content %}
