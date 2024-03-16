@@ -2,7 +2,7 @@
 
 Flask est un framework web micro puissant et flexible pour Python, idéal pour les petits et grands projets web. Il offre un moyen simple de mettre en place une application web, avec toutes les fonctionnalités dont vous avez besoin pour commencer.
 
-Au cours de ce tutoriel, vous explorerez le processus de création d'un modèle de base pour un projet web Flask. Ce modèle de base servira de point de départ idéal pour toute application web Flask évolutive que vous souhaitez développer à l'avenir, des pages web de base aux applications web complexes.
+Ce projet servira de point de départ idéal pour toute application web Flask évolutive que vous souhaitez développer à l'avenir, des pages web de base aux applications web complexes.
 
 1. **Structure du Projet** : Définissez une structure claire et organisée pour votre projet Flask. Cela comprend généralement des répertoires pour les fichiers statiques, les modèles et votre code Python.
 
